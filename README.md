@@ -1,6 +1,8 @@
-# stm32f4-examples-NCKU-SingleChip
+stm32f4-examples-NCKU-SingleChip
+===================================
 
 Please set up the environment before the class
+
 ----------------------------------------------------------------------------------
 ### Github 
 		1. $ sudo apt-get update
