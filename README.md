@@ -1,30 +1,30 @@
 # stm32f4-examples-NCKU-SingleChip
-Code for stm32f4
+
 Please set up the environment before the class
 ----------------------------------------------------------------------------------
-Github 
-1. $ sudo apt-get update
-2. $ sudo apt-get install build-essential git-core
-3. $ ssh-keygen -t rsa -C "your_email@example.com"
-後面那是自己申請 Github 所使用的信箱。之後 ssh 程式會要求輸入 passphrase：
-直接按下 Enter 鍵即可。
-輸入一個 passphrase，如不想輸入直接按下 Enter 鍵即可。
-此時顯示的是你 SSH Key 的 fingerprint
+	###Github 
+		1. $ sudo apt-get update
+		2. $ sudo apt-get install build-essential git-core
+		3. $ ssh-keygen -t rsa -C "your_email@example.com"
+		後面那是自己申請 Github 所使用的信箱。之後 ssh 程式會要求輸入 passphrase：
+		直接按下 Enter 鍵即可。
+		輸入一個 passphrase，如不想輸入直接按下 Enter 鍵即可。
+		此時顯示的是你 SSH Key 的 fingerprint
 
-4. Ensure ssh-agent is enabled:
-$ eval "$(ssh-agent -s)"
+		4. Ensure ssh-agent is enabled:
+		$ eval "$(ssh-agent -s)"
 
-5. Add your SSH key to the ssh-agent:
-$ ssh-add ~/.ssh/id_rsa
+		5. Add your SSH key to the ssh-agent:
+		$ ssh-add ~/.ssh/id_rsa
 
-6. Copy the SSH key to your clipboard.
-$ sudo apt-get install xclip
-$ xclip -sel clip < ~/.ssh/id_rsa.pub
+		6. Copy the SSH key to your clipboard.
+		$ sudo apt-get install xclip
+		$ xclip -sel clip < ~/.ssh/id_rsa.pub
 
-7.Paste the ssh key to the github -> settings -> ssh  & GPG keys
+		7.Paste the ssh key to the github -> settings -> ssh  & GPG keys
 
-8. Confirm the action by entering your GitHub password.
-$ ssh -T git@github.com
+		8. Confirm the action by entering your GitHub password.
+		$ ssh -T git@github.com
 ----------------------------------------------------------------------------------
 開發環境設定
 $ sudo apt-get update
