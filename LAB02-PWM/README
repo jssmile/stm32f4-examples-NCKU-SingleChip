@@ -1,6 +1,6 @@
-Template for STM32F4 Development on the Acer-VN7.
+Template for STM32F4 Development on the Ubuntu mate 15.04.
 The main.c file contains a basic example showing how
-to blink an LED.
+to change the brightness of the LED.
 Following steps is below
 	build:
 		make
